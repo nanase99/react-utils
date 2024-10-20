@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 
 const meta = {
   component: Input,
-  args: { placeholder: "入力してください" }
+  args: { placeholder: "入力してください", label: "ラベル" }
 } satisfies Meta<typeof Input>;
 
 export default meta;
